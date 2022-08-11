@@ -1,0 +1,8 @@
+int arrangeCoins(int){
+            intk=1;
+            while(k <=n){
+                n-=k++;
+            }
+            return k-1;
+        }
+    }
