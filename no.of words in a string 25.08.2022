@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	char str[100];
+	int i,words;
+	words=1;
+	gets(str);
+	for(i=0;str[i]!='\0';i++)
+	{
+		if(str[i]==''||str[i]=='\n'||str[i]=='\t')
+		{
+			words++;
+		}
+	}
+	printf("\n no.of words=%d",str,words);
+	return 0;
+}
+output:
+ I Love India
+ no.of words=3
