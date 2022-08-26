@@ -25,3 +25,10 @@ int main()
 	printf("count of numbers:%d",num);
 	return 0;
 }
+input:
+enter a string
+Aditya@123
+output:
+count of upper case:1
+count of lower case:5
+count of numbers:3
